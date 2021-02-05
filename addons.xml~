@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<addons>
 <addon id="plugin.video.helloworld" version="1.10.1" name="Hello Video" provider-name="Qwarlock">
     <platform>all</platform>
     <source>https://github.com/mikesilvo164/skin.aeon.madnox</source>
@@ -6,4 +7,5 @@
     <website>https://github.com/mikesilvo164/skin.aeon.madnox</website>
 </extension>
 </addon>
+</addons>
 
