@@ -8,12 +8,12 @@
      </extension>
 	</addon>
 
-	<addon id="plugin.video.helloworld" version="0.0.1" name="Hello World" provider-name="Qwarlock">
+	<addon id="script.hello.world" version="1.0.0" name="Hello World" provider-name="Qwarlock">
 	  <requires>
 		  <import addon="xbmc.python" version="2.19.0" />
 	  </requires>
-	  <extension point="xbmc.python.pluginsource" library="default.py">
-		  <provides>video</provides>
+	  <extension point="xbmc.python.script" library="addon.py">
+		  <provides>executable</provides>
 	  </extension>
 		<summary lang="en">Hello World</summary>
 		<description lang="en">[B]Hello World[/B][CR] [B]***This is a test plugin.
