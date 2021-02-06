@@ -15,11 +15,8 @@
 	  <extension point="xbmc.python.pluginsource" library="default.py">
 		  <provides>video</provides>
 	  </extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Hello World</summary>
 		<description lang="en">[B]Hello World[/B][CR] [B]***This is a test plugin.
-
 		</description>
 		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
 		<platform>all</platform>
